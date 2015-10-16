@@ -1,5 +1,5 @@
 {
-  "name": "node-simple-benchmark",
+  "name": "simple-benchmark",
   "version": "1.0.0",
   "description": "Super simple benchmark tool ",
   "main": "index.js",
