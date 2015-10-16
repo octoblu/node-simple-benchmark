@@ -1,6 +1,6 @@
 {
   "name": "simple-benchmark",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Super simple benchmark tool ",
   "main": "index.js",
   "scripts": {
