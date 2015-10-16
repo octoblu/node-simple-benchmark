@@ -20,7 +20,7 @@ class Benchmark
 
   prettyPrint: =>
     elaspsedString = "#{@elapsed()}ms"
-    console.log "#{colors.magenta(@label)}: #{colors.green(elaspsedString)}"
+    console.log "#{colors.magenta(@id)}: #{colors.green(elaspsedString)}"
 
   @resetIds: =>
     global_ids = {}
