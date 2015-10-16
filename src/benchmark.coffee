@@ -1,4 +1,5 @@
 global_ids = null
+colors     = require 'colors'
 
 class Benchmark
   constructor: (options={}) ->
@@ -16,6 +17,9 @@ class Benchmark
 
   print: =>
     console.log @toString()
+
+  prettyPrint: =>
+    console.log "#{colors.magenta(@id)}: #{colors.green(@elapsed())}"
 
   @resetIds: =>
     global_ids = {}

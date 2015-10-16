@@ -11,7 +11,7 @@ after_script:
 deploy:
   provider: npm
   email: serveradmin@octoblu.com
-  api_key:
+  api_key: 
   on:
     tags: true
     branches: true
