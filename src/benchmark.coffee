@@ -13,13 +13,13 @@ class Benchmark
     Date.now() - @startTime
 
   toString: =>
-    "#{@id}: #{@elapsed()}"
+    "#{@id}: #{@elapsed()}ms"
 
   print: =>
     console.log @toString()
 
   prettyPrint: =>
-    console.log "#{colors.magenta(@id)}: #{colors.green(@elapsed())}"
+    console.log "#{colors.magenta(@id)}: #{colors.green(@elapsed())}ms"
 
   @resetIds: =>
     global_ids = {}
