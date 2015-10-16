@@ -19,10 +19,12 @@
     "url": "https://github.com/octoblu/node-simple-benchmark/issues"
   },
   "homepage": "https://github.com/octoblu/node-simple-benchmark#readme",
+  "dependencies": {
+    "coffee-script": "^1.10.0"
+  },
   "devDependencies": {
     "chai": "^3.3.0",
     "coffee-coverage": "^0.6.3",
-    "coffee-script": "^1.10.0",
     "istanbul": "^0.3.22",
     "mocha": "^2.3.3",
     "mocha-istanbul": "^0.2.0",
