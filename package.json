@@ -1,10 +1,10 @@
 {
   "name": "simple-benchmark",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Super simple benchmark tool ",
   "main": "index.js",
   "scripts": {
-    "test": "istanbul cover _mocha -- -R spec"
+    "test": "istanbul cover _mocha -- -R spec --require coffee-coverage/register-istanbul"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,7 @@
     "chai": "^3.3.0",
     "coffee-coverage": "^0.6.3",
     "istanbul": "^0.3.22",
+    "lodash": "^4.11.1",
     "mocha": "^2.3.3",
     "mocha-istanbul": "^0.2.0",
     "sinon": "^1.17.1",
