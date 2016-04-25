@@ -1,6 +1,6 @@
 {
   "name": "simple-benchmark",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Super simple benchmark tool ",
   "main": "index.js",
   "scripts": {
@@ -24,13 +24,13 @@
     "colors": "^1.1.2"
   },
   "devDependencies": {
-    "chai": "^3.3.0",
+    "chai": "^3.5.0",
     "coffee-coverage": "^0.6.3",
     "istanbul": "^0.3.22",
     "lodash": "^4.11.1",
-    "mocha": "^2.3.3",
+    "mocha": "^2.4.5",
     "mocha-istanbul": "^0.2.0",
-    "sinon": "^1.17.1",
+    "sinon": "^1.17.3",
     "sinon-chai": "^2.8.0"
   }
 }
