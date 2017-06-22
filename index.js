@@ -1,2 +1,1 @@
-require('coffee-script/register');
-module.exports = require('./src/benchmark');
+module.exports = require("./lib/benchmark")
