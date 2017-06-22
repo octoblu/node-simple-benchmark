@@ -1,5 +1,6 @@
-Benchmark = require '../'
+{describe,it,expect,beforeEach} = global
 _ = require 'lodash'
+Benchmark = require '../'
 
 describe 'Benchmark', ->
   it 'should exist', ->

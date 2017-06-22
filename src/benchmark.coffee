@@ -1,5 +1,6 @@
 global_ids = null
 colors     = require 'colors'
+now        = require 'performance-now'
 
 class Benchmark
   constructor: (options={}) ->
@@ -7,10 +8,10 @@ class Benchmark
     global_ids[label] ?= 0
     global_ids[label] += 1
     @id = "#{label}-#{global_ids[label]}"
-    @startTime = Date.now()
+    @startTime = now()
 
   elapsed: =>
-    Date.now() - @startTime
+    return Math.round(now() - @startTime)
 
   toString: =>
     "#{@id}: #{@elapsed()}ms"
