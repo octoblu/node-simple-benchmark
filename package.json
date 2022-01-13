@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/octoblu/node-simple-benchmark#readme",
   "dependencies": {
-    "colors": "^1.1.2",
+    "@dabh/colors": "^1.4.0",
     "performance-now": "^2.1.0"
   },
   "devDependencies": {
